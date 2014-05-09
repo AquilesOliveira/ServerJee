@@ -1,0 +1,648 @@
+10/04/2014 21:16:30 org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: .:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+10/04/2014 21:16:30 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+10/04/2014 21:16:30 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+10/04/2014 21:16:31 org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+10/04/2014 21:16:31 org.apache.openejb.OpenEJB$Instance <init>
+INFO: ********************************************************************************
+10/04/2014 21:16:31 org.apache.openejb.OpenEJB$Instance <init>
+INFO: OpenEJB http://openejb.apache.org/
+10/04/2014 21:16:31 org.apache.openejb.OpenEJB$Instance <init>
+INFO: Startup: Thu Apr 10 21:16:31 GMT-03:00 2014
+10/04/2014 21:16:31 org.apache.openejb.OpenEJB$Instance <init>
+INFO: Copyright 1999-2012 (C) Apache OpenEJB Project, All Rights Reserved.
+10/04/2014 21:16:31 org.apache.openejb.OpenEJB$Instance <init>
+INFO: Version: 4.5.0
+10/04/2014 21:16:31 org.apache.openejb.OpenEJB$Instance <init>
+INFO: Build date: 20120928
+10/04/2014 21:16:31 org.apache.openejb.OpenEJB$Instance <init>
+INFO: Build time: 08:12
+10/04/2014 21:16:31 org.apache.openejb.OpenEJB$Instance <init>
+INFO: ********************************************************************************
+10/04/2014 21:16:31 org.apache.openejb.OpenEJB$Instance <init>
+INFO: openejb.home = /Users/koonjshah/TesteMaven/target/apache-tomee
+10/04/2014 21:16:31 org.apache.openejb.OpenEJB$Instance <init>
+INFO: openejb.base = /Users/koonjshah/TesteMaven/target/apache-tomee
+10/04/2014 21:16:31 org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFO: Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@2583d260
+10/04/2014 21:16:31 org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFO: Succeeded in installing singleton service
+10/04/2014 21:16:31 org.apache.openejb.config.ConfigurationFactory init
+INFO: openejb configuration file is '/Users/koonjshah/TesteMaven/target/apache-tomee/conf/tomee.xml'
+10/04/2014 21:16:31 org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.provider.default=org.apache.tomee'
+10/04/2014 21:16:31 org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+10/04/2014 21:16:31 org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+10/04/2014 21:16:31 org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=My DataSource, type=Resource, provider-id=Default JDBC Database)
+10/04/2014 21:16:31 org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=My Unmanaged DataSource, type=Resource, provider-id=Default JDBC Database)
+10/04/2014 21:16:31 org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=My Singleton Container, type=Container, provider-id=Default Singleton Container)
+10/04/2014 21:16:31 org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=My Stateful Container, type=Container, provider-id=Default Stateful Container)
+10/04/2014 21:16:31 org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=My Stateless Container, type=Container, provider-id=Default Stateless Container)
+10/04/2014 21:16:31 org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.system.apps=true'
+10/04/2014 21:16:31 org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: null
+10/04/2014 21:16:31 org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Using openejb.deploymentId.format '{ejbName}'
+10/04/2014 21:16:31 org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb openejb/Deployer: EjbDeployment(deployment-id=openejb/Deployer)
+10/04/2014 21:16:31 org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb openejb/ConfigurationInfo: EjbDeployment(deployment-id=openejb/ConfigurationInfo)
+10/04/2014 21:16:31 org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb MEJB: EjbDeployment(deployment-id=MEJB)
+10/04/2014 21:16:31 org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "openejb" loaded.
+10/04/2014 21:16:31 org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating TransactionManager(id=Default Transaction Manager)
+10/04/2014 21:16:31 org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating SecurityService(id=Tomcat Security Service)
+10/04/2014 21:16:31 org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Resource(id=My DataSource)
+10/04/2014 21:16:31 org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Resource(id=My Unmanaged DataSource)
+10/04/2014 21:16:31 org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Container(id=My Singleton Container)
+10/04/2014 21:16:31 org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Container(id=My Stateful Container)
+10/04/2014 21:16:31 org.apache.openejb.core.stateful.SimplePassivater init
+INFO: Using directory /Users/koonjshah/TesteMaven/target/apache-tomee/temp for stateful session passivation
+10/04/2014 21:16:31 org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Container(id=My Stateless Container)
+10/04/2014 21:16:31 org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: openejb
+10/04/2014 21:16:31 org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.jndiname.format={deploymentId}{interfaceType.openejbLegacyName}'
+10/04/2014 21:16:31 org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=openejb/DeployerBusinessRemote) --> Ejb(deployment-id=openejb/Deployer)
+10/04/2014 21:16:31 org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/openejb/Deployer!org.apache.openejb.assembler.Deployer) --> Ejb(deployment-id=openejb/Deployer)
+10/04/2014 21:16:31 org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/openejb/Deployer) --> Ejb(deployment-id=openejb/Deployer)
+10/04/2014 21:16:31 org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=openejb/ConfigurationInfoBusinessRemote) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+10/04/2014 21:16:31 org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/openejb/ConfigurationInfo!org.apache.openejb.assembler.classic.cmd.ConfigurationInfo) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+10/04/2014 21:16:31 org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/openejb/ConfigurationInfo) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+10/04/2014 21:16:31 org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=MEJB) --> Ejb(deployment-id=MEJB)
+10/04/2014 21:16:31 org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/MEJB!javax.management.j2ee.ManagementHome) --> Ejb(deployment-id=MEJB)
+10/04/2014 21:16:31 org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/MEJB) --> Ejb(deployment-id=MEJB)
+10/04/2014 21:16:31 org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance() org.apache.openejb.cdi.ThreadSingletonServiceImpl@2583d260
+10/04/2014 21:16:31 org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+10/04/2014 21:16:31 org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+10/04/2014 21:16:31 org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+10/04/2014 21:16:31 org.apache.openejb.cdi.BeansDeployer validateInjectionPoints
+INFO: All injection points are validated successfully.
+10/04/2014 21:16:31 org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 67 ms.
+10/04/2014 21:16:31 org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Created Ejb(deployment-id=openejb/Deployer, ejb-name=openejb/Deployer, container=My Stateless Container)
+10/04/2014 21:16:31 org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Created Ejb(deployment-id=MEJB, ejb-name=MEJB, container=My Stateless Container)
+10/04/2014 21:16:31 org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Created Ejb(deployment-id=openejb/ConfigurationInfo, ejb-name=openejb/ConfigurationInfo, container=My Stateless Container)
+10/04/2014 21:16:32 org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Started Ejb(deployment-id=openejb/Deployer, ejb-name=openejb/Deployer, container=My Stateless Container)
+10/04/2014 21:16:32 org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Started Ejb(deployment-id=MEJB, ejb-name=MEJB, container=My Stateless Container)
+10/04/2014 21:16:32 org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Started Ejb(deployment-id=openejb/ConfigurationInfo, ejb-name=openejb/ConfigurationInfo, container=My Stateless Container)
+10/04/2014 21:16:32 org.apache.openejb.assembler.classic.Assembler deployMBean
+INFO: Deployed MBean(openejb.user.mbeans:application=openejb,group=org.apache.openejb.assembler.monitoring,name=JMXDeployer)
+10/04/2014 21:16:32 org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=openejb)
+10/04/2014 21:16:32 org.apache.openejb.server.ServiceManager initServer
+INFO: Creating ServerService(id=cxf)
+10/04/2014 21:16:32 org.apache.openejb.server.ServiceManager initServer
+INFO: Creating ServerService(id=cxf-rs)
+10/04/2014 21:16:32 org.apache.openejb.server.SimpleServiceManager start
+INFO: Starting service cxf
+10/04/2014 21:16:32 org.apache.openejb.server.SimpleServiceManager start
+INFO: Started service cxf
+10/04/2014 21:16:32 org.apache.openejb.server.SimpleServiceManager start
+INFO: Starting service cxf-rs
+10/04/2014 21:16:32 org.apache.openejb.server.SimpleServiceManager start
+INFO: Started service cxf-rs
+10/04/2014 21:16:32 org.apache.openejb.server.SimpleServiceManager start
+INFO:   ** Bound Services **
+10/04/2014 21:16:32 org.apache.openejb.server.SimpleServiceManager printRow
+INFO:   NAME                 IP              PORT  
+10/04/2014 21:16:32 org.apache.openejb.server.SimpleServiceManager start
+INFO: -------
+10/04/2014 21:16:32 org.apache.openejb.server.SimpleServiceManager start
+INFO: Ready!
+10/04/2014 21:16:32 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2279 ms
+10/04/2014 21:16:32 org.apache.tomee.catalina.OpenEJBNamingContextListener bindResource
+INFO: Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+10/04/2014 21:16:32 org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Resource(id=UserDatabase)
+10/04/2014 21:16:32 org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+10/04/2014 21:16:32 org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.30
+10/04/2014 21:16:32 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /Users/koonjshah/TesteMaven/target/apache-tomee/webapps/restee.war
+10/04/2014 21:16:32 org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: -------------------------
+TomcatWebAppBuilder.init /restee
+10/04/2014 21:16:32 org.apache.openejb.util.JarExtractor extract
+INFO: Extracting jar: /Users/koonjshah/TesteMaven/target/apache-tomee/webapps/restee.war
+10/04/2014 21:16:32 org.apache.openejb.util.JarExtractor extract
+INFO: Extracted path: /Users/koonjshah/TesteMaven/target/apache-tomee/webapps/restee
+10/04/2014 21:16:32 org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager'
+10/04/2014 21:16:32 org.apache.tomee.catalina.TomEEClassLoaderEnricher validateJarFile
+AVISO: jar '/Users/koonjshah/TesteMaven/target/apache-tomee/webapps/restee/WEB-INF/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar' contains offending class: javax.persistence.Entity. It will be ignored.
+10/04/2014 21:16:32 org.apache.tomee.catalina.TomEEClassLoaderEnricher validateJarFile
+AVISO: jar '/Users/koonjshah/TesteMaven/target/apache-tomee/webapps/restee/WEB-INF/lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar' contains offending class: javax.transaction.Transaction. It will be ignored.
+10/04/2014 21:16:32 org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: /Users/koonjshah/TesteMaven/target/apache-tomee/webapps/restee
+10/04/2014 21:16:32 org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb CargoWS: EjbDeployment(deployment-id=CargoWS)
+10/04/2014 21:16:32 org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb CargoDao: EjbDeployment(deployment-id=CargoDao)
+10/04/2014 21:16:32 org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=java:/jdbc/gp-hsqldb, type=Resource, provider-id=Default JDBC Database)
+10/04/2014 21:16:32 org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Resource(id=java:/jdbc/gp-hsqldb)
+10/04/2014 21:16:32 org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Default Managed Container, type=Container, provider-id=Default Managed Container)
+10/04/2014 21:16:32 org.apache.openejb.config.AutoConfig createContainer
+INFO: Auto-creating a container for bean localhost/restee.Comp: Container(type=MANAGED, id=Default Managed Container)
+10/04/2014 21:16:32 org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Container(id=Default Managed Container)
+10/04/2014 21:16:32 org.apache.openejb.core.managed.SimplePassivater init
+INFO: Using directory /Users/koonjshah/TesteMaven/target/apache-tomee/temp for stateful session passivation
+10/04/2014 21:16:32 org.apache.openejb.config.AutoConfig processResourceRef
+INFO: Auto-linking resource-ref 'openejb/Resource/java:/jdbc/gp-hsqldb' in bean localhost/restee.Comp to Resource(id=My DataSource)
+10/04/2014 21:16:32 org.apache.openejb.config.AutoConfig processResourceRef
+INFO: Auto-linking resource-ref 'openejb/Resource/java:/jdbc/gp-hsqldb' in bean CargoWS to Resource(id=My DataSource)
+10/04/2014 21:16:32 org.apache.openejb.config.AutoConfig processResourceRef
+INFO: Auto-linking resource-ref 'openejb/Resource/java:/jdbc/gp-hsqldb' in bean CargoDao to Resource(id=My DataSource)
+10/04/2014 21:16:32 org.apache.openejb.config.AutoConfig deploy
+INFO: Configuring PersistenceUnit(name=gp-unit, provider=org.hibernate.ejb.HibernatePersistence)
+10/04/2014 21:16:32 org.apache.openejb.config.AutoConfig setJtaDataSource
+INFO: Adjusting PersistenceUnit gp-unit <jta-data-source> to Resource ID 'My DataSource' from '/jdbc/gp-hsqldb'
+10/04/2014 21:16:32 org.apache.openejb.config.AutoConfig setNonJtaDataSource
+INFO: Adjusting PersistenceUnit gp-unit <non-jta-data-source> to Resource ID 'My Unmanaged DataSource' from 'null'
+10/04/2014 21:16:32 org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "/Users/koonjshah/TesteMaven/target/apache-tomee/webapps/restee" loaded.
+10/04/2014 21:16:32 org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: /Users/koonjshah/TesteMaven/target/apache-tomee/webapps/restee
+10/04/2014 21:16:33 org.hibernate.annotations.common.Version <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+10/04/2014 21:16:33 org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {4.1.7.Final}
+10/04/2014 21:16:33 org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+10/04/2014 21:16:33 org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+10/04/2014 21:16:33 org.hibernate.ejb.Ejb3Configuration configure
+INFO: HHH000204: Processing PersistenceUnitInfo [
+	name: gp-unit
+	...]
+10/04/2014 21:16:33 org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator instantiateExplicitConnectionProvider
+INFO: HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+10/04/2014 21:16:33 org.hsqldb.persist.Logger logInfoEvent
+INFO: Checkpoint start
+10/04/2014 21:16:33 org.hsqldb.persist.Logger logInfoEvent
+INFO: checkpointClose start
+10/04/2014 21:16:33 org.hsqldb.persist.Logger logInfoEvent
+INFO: checkpointClose end
+10/04/2014 21:16:33 org.hsqldb.persist.Logger logInfoEvent
+INFO: Checkpoint end
+10/04/2014 21:16:33 org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+10/04/2014 21:16:33 org.hibernate.engine.transaction.internal.TransactionFactoryInitiator initiateService
+INFO: HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jta.CMTTransactionFactory
+10/04/2014 21:16:33 org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory <init>
+INFO: HHH000397: Using ASTQueryTranslatorFactory
+10/04/2014 21:16:34 org.hibernate.tool.hbm2ddl.SchemaExport execute
+INFO: HHH000227: Running hbm2ddl schema export
+10/04/2014 21:16:34 org.hibernate.tool.hbm2ddl.SchemaExport execute
+INFO: HHH000230: Schema export complete
+10/04/2014 21:16:34 org.apache.openejb.assembler.classic.PersistenceBuilder createEntityManagerFactory
+INFO: PersistenceUnit(name=gp-unit, provider=org.hibernate.ejb.HibernatePersistence) - provider time 1149ms
+10/04/2014 21:16:34 org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=CargoDaoLocalBean) --> Ejb(deployment-id=CargoDao)
+10/04/2014 21:16:34 org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/localhost/restee/CargoDao!models.CargoDao) --> Ejb(deployment-id=CargoDao)
+10/04/2014 21:16:34 org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/localhost/restee/CargoDao) --> Ejb(deployment-id=CargoDao)
+10/04/2014 21:16:34 org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance() org.apache.openejb.cdi.ThreadSingletonServiceImpl@2583d260
+10/04/2014 21:16:34 org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+10/04/2014 21:16:34 org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+10/04/2014 21:16:34 org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+10/04/2014 21:16:34 org.apache.openejb.cdi.BeansDeployer validateInjectionPoints
+INFO: All injection points are validated successfully.
+10/04/2014 21:16:34 org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 25 ms.
+10/04/2014 21:16:34 org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Created Ejb(deployment-id=CargoDao, ejb-name=CargoDao, container=My Stateless Container)
+10/04/2014 21:16:34 org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Created Ejb(deployment-id=CargoWS, ejb-name=CargoWS, container=My Stateless Container)
+10/04/2014 21:16:34 org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Started Ejb(deployment-id=CargoDao, ejb-name=CargoDao, container=My Stateless Container)
+10/04/2014 21:16:34 org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Started Ejb(deployment-id=CargoWS, ejb-name=CargoWS, container=My Stateless Container)
+10/04/2014 21:16:34 org.apache.tomee.catalina.TomcatWebAppBuilder deployWebApps
+INFO: using context file /Users/koonjshah/TesteMaven/target/apache-tomee/webapps/restee/META-INF/context.xml
+10/04/2014 21:16:34 org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=/Users/koonjshah/TesteMaven/target/apache-tomee/webapps/restee)
+10/04/2014 21:16:34 org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
+INFO: Creating Service {http://localhost/wsdl}CargoService from class ws.CargoWS
+10/04/2014 21:16:34 org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be http://nopath:80
+10/04/2014 21:16:34 org.apache.openejb.server.webservices.WsService afterApplicationCreated
+INFO: Webservice(wsdl=http://localhost:8080/restee/webservices/CargoWS, qname={http://localhost/wsdl}CargoService) --> Ejb(id=CargoWS)
+10/04/2014 21:16:36 org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be http://localhost:8080/restee/api
+10/04/2014 21:16:36 org.apache.openejb.server.rest.RESTService deployPojo
+INFO: REST Service: http://localhost:8080/restee/api/cargos/*  -> Pojo api.Cargos
+10/04/2014 21:16:36 org.apache.openejb.server.rest.RESTService afterApplicationCreated
+INFO: REST application deployed: api.config.ApplicationConfig
+10/04/2014 21:16:36 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/koonjshah/TesteMaven/target/apache-tomee/webapps/tomee
+10/04/2014 21:16:36 org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: -------------------------
+TomcatWebAppBuilder.init /tomee
+10/04/2014 21:16:36 org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager'
+10/04/2014 21:16:36 org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: /Users/koonjshah/TesteMaven/target/apache-tomee/webapps/tomee
+10/04/2014 21:16:36 org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "/Users/koonjshah/TesteMaven/target/apache-tomee/webapps/tomee" loaded.
+10/04/2014 21:16:36 org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: /Users/koonjshah/TesteMaven/target/apache-tomee/webapps/tomee
+10/04/2014 21:16:36 org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance() org.apache.openejb.cdi.ThreadSingletonServiceImpl@2583d260
+10/04/2014 21:16:36 org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+10/04/2014 21:16:36 org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+10/04/2014 21:16:36 org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+10/04/2014 21:16:36 org.apache.openejb.cdi.BeansDeployer validateInjectionPoints
+INFO: All injection points are validated successfully.
+10/04/2014 21:16:36 org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 3 ms.
+10/04/2014 21:16:36 org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=/Users/koonjshah/TesteMaven/target/apache-tomee/webapps/tomee)
+10/04/2014 21:16:36 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+10/04/2014 21:16:36 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+10/04/2014 21:16:36 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 4461 ms
+10/04/2014 21:21:06 org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+10/04/2014 21:21:06 org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+10/04/2014 21:21:06 org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+10/04/2014 21:21:06 org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: /Users/koonjshah/TesteMaven/target/apache-tomee/webapps/tomee
+10/04/2014 21:21:50 org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: .:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+10/04/2014 21:21:50 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+10/04/2014 21:21:50 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+10/04/2014 21:21:51 org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+10/04/2014 21:21:51 org.apache.openejb.OpenEJB$Instance <init>
+INFO: ********************************************************************************
+10/04/2014 21:21:51 org.apache.openejb.OpenEJB$Instance <init>
+INFO: OpenEJB http://openejb.apache.org/
+10/04/2014 21:21:51 org.apache.openejb.OpenEJB$Instance <init>
+INFO: Startup: Thu Apr 10 21:21:51 GMT-03:00 2014
+10/04/2014 21:21:51 org.apache.openejb.OpenEJB$Instance <init>
+INFO: Copyright 1999-2012 (C) Apache OpenEJB Project, All Rights Reserved.
+10/04/2014 21:21:51 org.apache.openejb.OpenEJB$Instance <init>
+INFO: Version: 4.5.0
+10/04/2014 21:21:51 org.apache.openejb.OpenEJB$Instance <init>
+INFO: Build date: 20120928
+10/04/2014 21:21:51 org.apache.openejb.OpenEJB$Instance <init>
+INFO: Build time: 08:12
+10/04/2014 21:21:51 org.apache.openejb.OpenEJB$Instance <init>
+INFO: ********************************************************************************
+10/04/2014 21:21:51 org.apache.openejb.OpenEJB$Instance <init>
+INFO: openejb.home = /Users/koonjshah/TesteMaven/target/apache-tomee
+10/04/2014 21:21:51 org.apache.openejb.OpenEJB$Instance <init>
+INFO: openejb.base = /Users/koonjshah/TesteMaven/target/apache-tomee
+10/04/2014 21:21:51 org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFO: Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@7446a09b
+10/04/2014 21:21:51 org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFO: Succeeded in installing singleton service
+10/04/2014 21:21:51 org.apache.openejb.config.ConfigurationFactory init
+INFO: openejb configuration file is '/Users/koonjshah/TesteMaven/target/apache-tomee/conf/tomee.xml'
+10/04/2014 21:21:51 org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.provider.default=org.apache.tomee'
+10/04/2014 21:21:51 org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+10/04/2014 21:21:51 org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+10/04/2014 21:21:51 org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=My DataSource, type=Resource, provider-id=Default JDBC Database)
+10/04/2014 21:21:51 org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=My Unmanaged DataSource, type=Resource, provider-id=Default JDBC Database)
+10/04/2014 21:21:51 org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=My Singleton Container, type=Container, provider-id=Default Singleton Container)
+10/04/2014 21:21:51 org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=My Stateful Container, type=Container, provider-id=Default Stateful Container)
+10/04/2014 21:21:51 org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=My Stateless Container, type=Container, provider-id=Default Stateless Container)
+10/04/2014 21:21:51 org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.system.apps=true'
+10/04/2014 21:21:51 org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: null
+10/04/2014 21:21:51 org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Using openejb.deploymentId.format '{ejbName}'
+10/04/2014 21:21:51 org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb openejb/Deployer: EjbDeployment(deployment-id=openejb/Deployer)
+10/04/2014 21:21:51 org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb openejb/ConfigurationInfo: EjbDeployment(deployment-id=openejb/ConfigurationInfo)
+10/04/2014 21:21:51 org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb MEJB: EjbDeployment(deployment-id=MEJB)
+10/04/2014 21:21:51 org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "openejb" loaded.
+10/04/2014 21:21:51 org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating TransactionManager(id=Default Transaction Manager)
+10/04/2014 21:21:51 org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating SecurityService(id=Tomcat Security Service)
+10/04/2014 21:21:51 org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Resource(id=My DataSource)
+10/04/2014 21:21:51 org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Resource(id=My Unmanaged DataSource)
+10/04/2014 21:21:51 org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Container(id=My Singleton Container)
+10/04/2014 21:21:51 org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Container(id=My Stateful Container)
+10/04/2014 21:21:51 org.apache.openejb.core.stateful.SimplePassivater init
+INFO: Using directory /Users/koonjshah/TesteMaven/target/apache-tomee/temp for stateful session passivation
+10/04/2014 21:21:51 org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Container(id=My Stateless Container)
+10/04/2014 21:21:51 org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: openejb
+10/04/2014 21:21:52 org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.jndiname.format={deploymentId}{interfaceType.openejbLegacyName}'
+10/04/2014 21:21:52 org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=openejb/DeployerBusinessRemote) --> Ejb(deployment-id=openejb/Deployer)
+10/04/2014 21:21:52 org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/openejb/Deployer!org.apache.openejb.assembler.Deployer) --> Ejb(deployment-id=openejb/Deployer)
+10/04/2014 21:21:52 org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/openejb/Deployer) --> Ejb(deployment-id=openejb/Deployer)
+10/04/2014 21:21:52 org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=openejb/ConfigurationInfoBusinessRemote) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+10/04/2014 21:21:52 org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/openejb/ConfigurationInfo!org.apache.openejb.assembler.classic.cmd.ConfigurationInfo) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+10/04/2014 21:21:52 org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/openejb/ConfigurationInfo) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+10/04/2014 21:21:52 org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=MEJB) --> Ejb(deployment-id=MEJB)
+10/04/2014 21:21:52 org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/MEJB!javax.management.j2ee.ManagementHome) --> Ejb(deployment-id=MEJB)
+10/04/2014 21:21:52 org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/MEJB) --> Ejb(deployment-id=MEJB)
+10/04/2014 21:21:52 org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance() org.apache.openejb.cdi.ThreadSingletonServiceImpl@7446a09b
+10/04/2014 21:21:52 org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+10/04/2014 21:21:52 org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+10/04/2014 21:21:52 org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+10/04/2014 21:21:52 org.apache.openejb.cdi.BeansDeployer validateInjectionPoints
+INFO: All injection points are validated successfully.
+10/04/2014 21:21:52 org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 75 ms.
+10/04/2014 21:21:52 org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Created Ejb(deployment-id=openejb/Deployer, ejb-name=openejb/Deployer, container=My Stateless Container)
+10/04/2014 21:21:52 org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Created Ejb(deployment-id=MEJB, ejb-name=MEJB, container=My Stateless Container)
+10/04/2014 21:21:52 org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Created Ejb(deployment-id=openejb/ConfigurationInfo, ejb-name=openejb/ConfigurationInfo, container=My Stateless Container)
+10/04/2014 21:21:52 org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Started Ejb(deployment-id=openejb/Deployer, ejb-name=openejb/Deployer, container=My Stateless Container)
+10/04/2014 21:21:52 org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Started Ejb(deployment-id=MEJB, ejb-name=MEJB, container=My Stateless Container)
+10/04/2014 21:21:52 org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Started Ejb(deployment-id=openejb/ConfigurationInfo, ejb-name=openejb/ConfigurationInfo, container=My Stateless Container)
+10/04/2014 21:21:52 org.apache.openejb.assembler.classic.Assembler deployMBean
+INFO: Deployed MBean(openejb.user.mbeans:application=openejb,group=org.apache.openejb.assembler.monitoring,name=JMXDeployer)
+10/04/2014 21:21:52 org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=openejb)
+10/04/2014 21:21:52 org.apache.openejb.server.ServiceManager initServer
+INFO: Creating ServerService(id=cxf)
+10/04/2014 21:21:52 org.apache.openejb.server.ServiceManager initServer
+INFO: Creating ServerService(id=cxf-rs)
+10/04/2014 21:21:52 org.apache.openejb.server.SimpleServiceManager start
+INFO: Starting service cxf
+10/04/2014 21:21:52 org.apache.openejb.server.SimpleServiceManager start
+INFO: Started service cxf
+10/04/2014 21:21:52 org.apache.openejb.server.SimpleServiceManager start
+INFO: Starting service cxf-rs
+10/04/2014 21:21:52 org.apache.openejb.server.SimpleServiceManager start
+INFO: Started service cxf-rs
+10/04/2014 21:21:52 org.apache.openejb.server.SimpleServiceManager start
+INFO:   ** Bound Services **
+10/04/2014 21:21:52 org.apache.openejb.server.SimpleServiceManager printRow
+INFO:   NAME                 IP              PORT  
+10/04/2014 21:21:52 org.apache.openejb.server.SimpleServiceManager start
+INFO: -------
+10/04/2014 21:21:52 org.apache.openejb.server.SimpleServiceManager start
+INFO: Ready!
+10/04/2014 21:21:52 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2104 ms
+10/04/2014 21:21:52 org.apache.tomee.catalina.OpenEJBNamingContextListener bindResource
+INFO: Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+10/04/2014 21:21:52 org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Resource(id=UserDatabase)
+10/04/2014 21:21:52 org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+10/04/2014 21:21:52 org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.30
+10/04/2014 21:21:52 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /Users/koonjshah/TesteMaven/target/apache-tomee/webapps/restee.war
+10/04/2014 21:21:52 org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: -------------------------
+TomcatWebAppBuilder.init /restee
+10/04/2014 21:21:52 org.apache.openejb.util.JarExtractor extract
+INFO: Extracting jar: /Users/koonjshah/TesteMaven/target/apache-tomee/webapps/restee.war
+10/04/2014 21:21:52 org.apache.openejb.util.JarExtractor extract
+INFO: Extracted path: /Users/koonjshah/TesteMaven/target/apache-tomee/webapps/restee
+10/04/2014 21:21:52 org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager'
+10/04/2014 21:21:52 org.apache.tomee.catalina.TomEEClassLoaderEnricher validateJarFile
+AVISO: jar '/Users/koonjshah/TesteMaven/target/apache-tomee/webapps/restee/WEB-INF/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar' contains offending class: javax.persistence.Entity. It will be ignored.
+10/04/2014 21:21:52 org.apache.tomee.catalina.TomEEClassLoaderEnricher validateJarFile
+AVISO: jar '/Users/koonjshah/TesteMaven/target/apache-tomee/webapps/restee/WEB-INF/lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar' contains offending class: javax.transaction.Transaction. It will be ignored.
+10/04/2014 21:21:52 org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: /Users/koonjshah/TesteMaven/target/apache-tomee/webapps/restee
+10/04/2014 21:21:53 org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb CargoDao: EjbDeployment(deployment-id=CargoDao)
+10/04/2014 21:21:53 org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb CargoWS: EjbDeployment(deployment-id=CargoWS)
+10/04/2014 21:21:53 org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=java:/jdbc/gp-hsqldb, type=Resource, provider-id=Default JDBC Database)
+10/04/2014 21:21:53 org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Resource(id=java:/jdbc/gp-hsqldb)
+10/04/2014 21:21:53 org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Default Managed Container, type=Container, provider-id=Default Managed Container)
+10/04/2014 21:21:53 org.apache.openejb.config.AutoConfig createContainer
+INFO: Auto-creating a container for bean localhost/restee.Comp: Container(type=MANAGED, id=Default Managed Container)
+10/04/2014 21:21:53 org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Container(id=Default Managed Container)
+10/04/2014 21:21:53 org.apache.openejb.core.managed.SimplePassivater init
+INFO: Using directory /Users/koonjshah/TesteMaven/target/apache-tomee/temp for stateful session passivation
+10/04/2014 21:21:53 org.apache.openejb.config.AutoConfig processResourceRef
+INFO: Auto-linking resource-ref 'openejb/Resource/java:/jdbc/gp-hsqldb' in bean localhost/restee.Comp to Resource(id=My DataSource)
+10/04/2014 21:21:53 org.apache.openejb.config.AutoConfig processResourceRef
+INFO: Auto-linking resource-ref 'openejb/Resource/java:/jdbc/gp-hsqldb' in bean CargoDao to Resource(id=My DataSource)
+10/04/2014 21:21:53 org.apache.openejb.config.AutoConfig processResourceRef
+INFO: Auto-linking resource-ref 'openejb/Resource/java:/jdbc/gp-hsqldb' in bean CargoWS to Resource(id=My DataSource)
+10/04/2014 21:21:53 org.apache.openejb.config.AutoConfig deploy
+INFO: Configuring PersistenceUnit(name=gp-unit, provider=org.hibernate.ejb.HibernatePersistence)
+10/04/2014 21:21:53 org.apache.openejb.config.AutoConfig setJtaDataSource
+INFO: Adjusting PersistenceUnit gp-unit <jta-data-source> to Resource ID 'My DataSource' from '/jdbc/gp-hsqldb'
+10/04/2014 21:21:53 org.apache.openejb.config.AutoConfig setNonJtaDataSource
+INFO: Adjusting PersistenceUnit gp-unit <non-jta-data-source> to Resource ID 'My Unmanaged DataSource' from 'null'
+10/04/2014 21:21:53 org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "/Users/koonjshah/TesteMaven/target/apache-tomee/webapps/restee" loaded.
+10/04/2014 21:21:53 org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: /Users/koonjshah/TesteMaven/target/apache-tomee/webapps/restee
+10/04/2014 21:21:53 org.hibernate.annotations.common.Version <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+10/04/2014 21:21:53 org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {4.1.7.Final}
+10/04/2014 21:21:53 org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+10/04/2014 21:21:53 org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+10/04/2014 21:21:53 org.hibernate.ejb.Ejb3Configuration configure
+INFO: HHH000204: Processing PersistenceUnitInfo [
+	name: gp-unit
+	...]
+10/04/2014 21:21:53 org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator instantiateExplicitConnectionProvider
+INFO: HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+10/04/2014 21:21:53 org.hsqldb.persist.Logger logInfoEvent
+INFO: checkpointClose start
+10/04/2014 21:21:53 org.hsqldb.persist.Logger logInfoEvent
+INFO: checkpointClose end
+10/04/2014 21:21:53 org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+10/04/2014 21:21:53 org.hibernate.engine.transaction.internal.TransactionFactoryInitiator initiateService
+INFO: HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jta.CMTTransactionFactory
+10/04/2014 21:21:53 org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory <init>
+INFO: HHH000397: Using ASTQueryTranslatorFactory
+10/04/2014 21:21:54 org.hibernate.tool.hbm2ddl.SchemaExport execute
+INFO: HHH000227: Running hbm2ddl schema export
+10/04/2014 21:21:54 org.hibernate.tool.hbm2ddl.SchemaExport execute
+INFO: HHH000230: Schema export complete
+10/04/2014 21:21:54 org.apache.openejb.assembler.classic.PersistenceBuilder createEntityManagerFactory
+INFO: PersistenceUnit(name=gp-unit, provider=org.hibernate.ejb.HibernatePersistence) - provider time 1160ms
+10/04/2014 21:21:54 org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=CargoDaoLocalBean) --> Ejb(deployment-id=CargoDao)
+10/04/2014 21:21:54 org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/localhost/restee/CargoDao!models.CargoDao) --> Ejb(deployment-id=CargoDao)
+10/04/2014 21:21:54 org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/localhost/restee/CargoDao) --> Ejb(deployment-id=CargoDao)
+10/04/2014 21:21:54 org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance() org.apache.openejb.cdi.ThreadSingletonServiceImpl@7446a09b
+10/04/2014 21:21:54 org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+10/04/2014 21:21:54 org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+10/04/2014 21:21:54 org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+10/04/2014 21:21:54 org.apache.openejb.cdi.BeansDeployer validateInjectionPoints
+INFO: All injection points are validated successfully.
+10/04/2014 21:21:54 org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 29 ms.
+10/04/2014 21:21:54 org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Created Ejb(deployment-id=CargoDao, ejb-name=CargoDao, container=My Stateless Container)
+10/04/2014 21:21:54 org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Created Ejb(deployment-id=CargoWS, ejb-name=CargoWS, container=My Stateless Container)
+10/04/2014 21:21:54 org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Started Ejb(deployment-id=CargoDao, ejb-name=CargoDao, container=My Stateless Container)
+10/04/2014 21:21:54 org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Started Ejb(deployment-id=CargoWS, ejb-name=CargoWS, container=My Stateless Container)
+10/04/2014 21:21:54 org.apache.tomee.catalina.TomcatWebAppBuilder deployWebApps
+INFO: using context file /Users/koonjshah/TesteMaven/target/apache-tomee/webapps/restee/META-INF/context.xml
+10/04/2014 21:21:54 org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=/Users/koonjshah/TesteMaven/target/apache-tomee/webapps/restee)
+10/04/2014 21:21:54 org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
+INFO: Creating Service {http://localhost/wsdl}CargoService from class ws.CargoWS
+10/04/2014 21:21:54 org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be http://nopath:80
+10/04/2014 21:21:54 org.apache.openejb.server.webservices.WsService afterApplicationCreated
+INFO: Webservice(wsdl=http://localhost:8080/restee/webservices/CargoWS, qname={http://localhost/wsdl}CargoService) --> Ejb(id=CargoWS)
+10/04/2014 21:21:56 org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be http://localhost:8080/restee/api
+10/04/2014 21:21:56 org.apache.openejb.server.rest.RESTService deployPojo
+INFO: REST Service: http://localhost:8080/restee/api/cargos/*  -> Pojo api.Cargos
+10/04/2014 21:21:56 org.apache.openejb.server.rest.RESTService afterApplicationCreated
+INFO: REST application deployed: api.config.ApplicationConfig
+10/04/2014 21:21:56 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/koonjshah/TesteMaven/target/apache-tomee/webapps/tomee
+10/04/2014 21:21:56 org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: -------------------------
+TomcatWebAppBuilder.init /tomee
+10/04/2014 21:21:56 org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager'
+10/04/2014 21:21:56 org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: /Users/koonjshah/TesteMaven/target/apache-tomee/webapps/tomee
+10/04/2014 21:21:56 org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "/Users/koonjshah/TesteMaven/target/apache-tomee/webapps/tomee" loaded.
+10/04/2014 21:21:56 org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: /Users/koonjshah/TesteMaven/target/apache-tomee/webapps/tomee
+10/04/2014 21:21:56 org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance() org.apache.openejb.cdi.ThreadSingletonServiceImpl@7446a09b
+10/04/2014 21:21:56 org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+10/04/2014 21:21:56 org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+10/04/2014 21:21:56 org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+10/04/2014 21:21:56 org.apache.openejb.cdi.BeansDeployer validateInjectionPoints
+INFO: All injection points are validated successfully.
+10/04/2014 21:21:56 org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 4 ms.
+10/04/2014 21:21:56 org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=/Users/koonjshah/TesteMaven/target/apache-tomee/webapps/tomee)
+10/04/2014 21:21:56 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+10/04/2014 21:21:56 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+10/04/2014 21:21:56 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 4409 ms
+10/04/2014 21:23:40 org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+10/04/2014 21:23:40 org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+10/04/2014 21:23:40 org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+10/04/2014 21:23:40 org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: /Users/koonjshah/TesteMaven/target/apache-tomee/webapps/tomee
